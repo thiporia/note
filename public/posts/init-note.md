@@ -1,6 +1,6 @@
 ---
-title: 'init note'
-date: '2024-07-02'
+title: "init note"
+date: "2024-07-02 01:24"
 ---
 
 # Hello, note
