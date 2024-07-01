@@ -7,6 +7,11 @@ import html from 'remark-html'
 const postsDirectory = path.join(process.cwd(), 'public/posts')
 
 export function getSortedPostsData() {
+  // 디렉토리가 존재하지 않으면 빈 배열 반환
+  if (!fs.existsSync(postsDirectory)) {
+    return []
+  }
+
   const fileNames = fs.readdirSync(postsDirectory)
   const allPostsData = fileNames.map(fileName => {
     const id = fileName.replace(/\.md$/, '')
@@ -30,10 +35,17 @@ export function getSortedPostsData() {
 }
 
 export function getAllPostIds() {
+  // 디렉토리가 존재하지 않으면 빈 배열 반환
+  if (!fs.existsSync(postsDirectory)) {
+    return []
+  }
+
   const fileNames = fs.readdirSync(postsDirectory)
   return fileNames.map(fileName => {
     return {
-      slug: fileName.replace(/\.md$/, '')
+      params: {
+        slug: fileName.replace(/\.md$/, '')
+      }
     }
   })
 }
