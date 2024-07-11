@@ -74,6 +74,6 @@ export async function getPostData(slug: string) {
   return {
     slug,
     contentHtml: processedHtml.toString(),
-    ...(matterResult.data as { date: string; title: string })
+    ...(matterResult.data as { date: string; title: string; tags: string; })
   }
 }

@@ -11,7 +11,10 @@ export default async function Post({ params }: { params: { slug: string } }) {
 
     return (
       <article>
-        <h1>{postData.title}</h1>
+        <div>
+          <h1>{postData.title}</h1>
+          <h5>tags: {postData.tags}</h5>
+        </div>
         <div className="markdown-body"  dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     )

@@ -1,5 +1,6 @@
 ---
 title: "warning: LF will be replaced by CRLF in .gitignore."
+tags: "Git"
 date: "2024-07-02 03:02"
 ---
 
