@@ -16,16 +16,22 @@ export default function tailwindRehypePlugin() {
         );
       }
 
+      if (node.tagName === "ol") {
+        node.properties.className = (node.properties.className || []).concat(
+          "list-decimal pl-4"
+        );
+      }
+
       if (node.tagName === "li") {
         node.properties.className = (node.properties.className || []).concat(
-          "text-base text-gray-700 mb-2"
+          "text-base text-gray-700"
         );
       }
 
       // 단락 스타일링
       if (node.tagName === "p") {
         node.properties.className = (node.properties.className || []).concat(
-          "mb-4 text-gray-700"
+          "text-gray-700"
         );
       }
 

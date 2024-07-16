@@ -91,9 +91,9 @@ Windows가 CRLF를 줄 끝 형식으로 사용하게 된 배경은 주로 역사
 
 ### Ref
 
-- [github - configuring-git-to-handle-line-endings](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings)
-- [git-config core.autocrlf](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coreautocrlf)
-- [git - gitattributes](https://git-scm.com/docs/gitattributes)
-- [crlf vs. lf](https://www.aleksandrhovhannisyan.com/blog/crlf-vs-lf-normalizing-line-endings-in-git/#a-simple-gitattributes-config)
-- [Why is the lien terminator CR+LF?](https://devblogs.microsoft.com/oldnewthing/20040318-00/?p=40193)
-- [vscode env](https://stackoverflow.com/a/73985251)
+[github - configuring-git-to-handle-line-endings](https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings)  
+[git-config core.autocrlf](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coreautocrlf)  
+[git - gitattributes](https://git-scm.com/docs/gitattributes)  
+[crlf vs. lf](https://www.aleksandrhovhannisyan.com/blog/crlf-vs-lf-normalizing-line-endings-in-git/#a-simple-gitattributes-config)  
+[Why is the lien terminator CR+LF?](https://devblogs.microsoft.com/oldnewthing/20040318-00/?p=40193)  
+[vscode env](https://stackoverflow.com/a/73985251)

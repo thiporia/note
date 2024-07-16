@@ -1,8 +1,6 @@
 ---
-title: "init note"
+title: "Note"
 date: "2024-07-02 01:24"
 ---
 
-# Hello, note
-
-첫 페이지입니다.
+안녕?

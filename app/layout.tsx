@@ -6,6 +6,7 @@ import "highlight.js/styles/github.css";
 
 import "./assets/styles/reset.css";
 import "./globals.css";
+
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Content from "@/components/layout/Content";
