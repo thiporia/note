@@ -1,13 +1,17 @@
-import Link from 'next/link'
+import PostList from '@/components/PostList'
+import { getSortedPostsData } from '@/lib/posts'
 
-export default function Home() {
+export default function Posts() {
+  const allPostsData = getSortedPostsData()
+  
+  if (allPostsData.length === 0) {
+    return <p>아직 작성된 포스트가 없습니다.</p>
+  }
+
   return (
     <>
-      <h1>notes</h1>
-      <p>낙서, 감상</p>
-      <Link href="/posts">
-        포스트 목록 보기
-      </Link>
+      <h1 className="my-0">포스트 목록</h1>
+      <PostList posts={allPostsData} />
     </>
   )
 }

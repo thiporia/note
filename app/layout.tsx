@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import localFont from 'next/font/local'
 
 import 'modern-normalize/modern-normalize.css'
 import 'highlight.js/styles/github.css';
-import 'tailwindcss/tailwind.css';
 
+import './assets/styles/reset.css'
 import './globals.css'
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
+import Content from '@/components/layout/Content';
 
 const font = localFont({
   src: [
@@ -32,18 +34,9 @@ export default function RootLayout({
   return (
     <html lang="ko" className={font.className}>
       <body>
-        <div className="container">
-          <header>
-            <nav>
-              <Link href="/">홈</Link>
-              <Link href="/posts">포스트</Link>
-            </nav>
-          </header>
-          <main>{children}</main>
-          <footer>
-            <p>2024, thiporia.</p>
-          </footer>
-        </div>
+        <Header />
+        <Content>{children}</Content>
+        <Footer />
       </body>
     </html>
   )

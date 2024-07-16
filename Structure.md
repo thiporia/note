@@ -1,16 +1,16 @@
 /
 ├── app/
-│   ├── layout.tsx
-│   ├── page.tsx
-│   ├── posts/
-│   │   ├── page.tsx
-│   │   └── [slug]/
-│   │       └── page.tsx
-│   └── globals.css
+│ ├── layout.tsx
+│ ├── page.tsx
+│ ├── posts/
+│ │ ├── page.tsx
+│ │ └── [...slug]/
+│ │ └── page.tsx
+│ └── globals.css
 ├── components/
-│   └── PostList.tsx
+│ └── PostList.tsx
 ├── lib/
-│   └── posts.ts
+│ └── posts.ts
 ├── public/
-│   └── posts/
+│ └── posts/
 └── package.json
