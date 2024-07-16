@@ -6,8 +6,8 @@ date: "2024-07-12 01:13"
 
 ### 궁금한 이유
 
-- React 컴포넌트 내에 의존성이 없는 상수 값에 대해서는 보통 외부 변수로 선언해왔다.
-- 다만, 이 경우 메모리를 계속 점유하는 문제가 있는데 정확히 어떤 영향이 있는 걸까? 궁금해졌다.
+React 컴포넌트 내에 의존성이 없는 상수 값에 대해서는 보통 외부 변수로 선언해왔다.  
+다만, 이 경우 메모리를 계속 점유하는 문제가 있는데 정확히 어떤 영향이 있는 걸까? 궁금해졌다.
 
 #### 1. 컴포넌트 외부 변수 선언
 
@@ -266,11 +266,11 @@ function VisitorCounter() {
 
 ### Ref
 
-- [useMemo](https://react.dev/reference/react/useMemo)
-- [memo](https://react.dev/reference/react/memo)
-- [skipping re-rendering](https://react.dev/reference/react/memo#skipping-re-rendering-when-props-are-unchanged)
-- [Before You memo() - Dan Abramov](https://overreacted.io/before-you-memo/)
-- [When to useMemo and useCallback - Kent C. Dodds](https://kentcdodds.com/blog/usememo-and-usecallback)
-- [React Fiber](https://github.com/acdlite/react-fiber-architecture)
-- [mdn - Memory management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
-- [A Complete Guide to React Rendering Behavior](https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/)
+[useMemo](https://react.dev/reference/react/useMemo)  
+[memo](https://react.dev/reference/react/memo)  
+[skipping re-rendering](https://react.dev/reference/react/memo#skipping-re-rendering-when-props-are-unchanged)  
+[Before You memo() - Dan Abramov](https://overreacted.io/before-you-memo/)  
+[When to useMemo and useCallback - Kent C. Dodds](https://kentcdodds.com/blog/usememo-and-usecallback)  
+[React Fiber](https://github.com/acdlite/react-fiber-architecture)  
+[mdn - Memory management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)  
+[A Complete Guide to React Rendering Behavior](https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/)
