@@ -259,5 +259,5 @@ export default App;
 
 ### Ref
 
-[Effective Typescript 2장, 6장](https://effectivetypescript.com/)
+[Effective Typescript 2장, 6장](https://effectivetypescript.com/)  
 [Typescript Object Types](https://www.typescriptlang.org/docs/handbook/2/objects.html)
